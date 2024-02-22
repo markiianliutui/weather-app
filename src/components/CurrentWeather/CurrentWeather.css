@@ -1,0 +1,41 @@
+.current-weather-container {
+  height: 100vh;
+  padding: 2rem;
+  background-image: url('/public/images/current-weather.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.current-weather-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weather-remaining {
+  display: flex;
+  gap: 4rem;
+}
+
+.current-weather-container__city {
+  font-size: 1.5rem;
+}
+
+.weather-remaining__time {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  font-weight: bold;
+  align-items: center;
+}
+
+.weather-remaining__time__words {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
