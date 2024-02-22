@@ -39,7 +39,8 @@ const HomeContainer = ({ user, removeUser, firebase }) => {
     if (user) {
       getTrips()
     }
-  }, [])
+    // eslint-disable-next-line
+  }, [user])
 
   const createTrip = async (formData) => {
     if (formData && formData.city) {
