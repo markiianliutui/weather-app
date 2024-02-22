@@ -39,7 +39,7 @@ const HomeContainer = ({ user, removeUser, firebase }) => {
     if (user) {
       getTrips()
     }
-  }, [user])
+  }, [])
 
   const createTrip = async (formData) => {
     if (formData && formData.city) {
